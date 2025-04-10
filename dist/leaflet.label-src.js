@@ -27,7 +27,8 @@ L.labelVersion = '0.2.4';
 
 var LeafletLabel = L.Class.extend({
 
-	includes: L.Mixin.Events,
+	// includes: L.Mixin.Events,
+	includes: L.Evented,
 
 	options: {
 		className: '',

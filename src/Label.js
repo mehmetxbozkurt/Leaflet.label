@@ -1,6 +1,7 @@
 var LeafletLabel = L.Class.extend({
 
-	includes: L.Mixin.Events,
+	// includes: L.Mixin.Events,
+	includes: L.Evented,
 
 	options: {
 		className: '',
