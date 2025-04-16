@@ -1,6 +1,7 @@
 Leaflet.label
 =============
 
+**NOTE: updated `L.Mixin.Events` to be used as `L.Evented` due to deprecation.**
 
 **NOTE: starting with Leaflet 1.0, `L.Label` is added to Leaflet core as `L.Tooltip` and this plugin is deprecrated.**
 

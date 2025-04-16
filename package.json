@@ -1,7 +1,7 @@
 {
-	"name": "leaflet.label",
+	"name": "@mehmetbozkurt/leaflet.label",
 	"version": "0.2.4",
-	"description": "Labels for leaflet maps",
+	"description": "Labels for leaflet maps. (Updated L.Mixin.Events to be used as L.Evented due to deprecation)",
 	"license": "MIT",
 	"devDependencies": {
 		"jshint": "~2.1.4",
@@ -16,11 +16,13 @@
 		"prepublish": "jake"
 	},
 	"repository": {
-		"type": "git",
-		"url": "git://github.com/Leaflet/Leaflet.label.git"
+		"type": "https",
+		"url": "https://github.com/mehmetxbozkurt/Leaflet.label.git"
 	},
 	"keywords": [
 		"gis",
 		"map"
-	]
+	],
+	"author": "Mehmet Bozkurt <mehmetxbozkurt@gmail.com>",
+	"homepage": "https://github.com/mehmetxbozkurt/Leaflet.label"	
 }
